@@ -1,0 +1,40 @@
+/* Upper div styles */
+ .container1 {
+    width: 1336px;
+    height: 78px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .cont1-title {
+    font-size: 16px;
+    color: #282828;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 26px;
+    font-family: 'Inter';
+    font-weight: 600;
+ }
+ .cont1-title2 {
+    font-size: 54px;
+    color: #282828;
+    line-height: 62px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+ .cont1-desc {
+    font-size: 20px;
+    color: #5F6980;
+    line-height: 35px;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 400;    
+ }
+ .paragraph-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 760px;
+    height: 70px;
+    margin-top: 16px;
+ }
