@@ -1,40 +1,212 @@
-/* Upper div styles */
- .container1 {
+
+.container1{
     width: 1336px;
-    height: 78px;
     margin-left: auto;
     margin-right: auto;
- }
- .cont1-title {
+    flex-wrap: wrap;
+}
+.cont1-title{
     font-size: 16px;
-    color: #282828;
-    text-align: center;
-    text-transform: uppercase;
     line-height: 26px;
-    font-family: 'Inter';
     font-weight: 600;
- }
- .cont1-title2 {
-    font-size: 54px;
     color: #282828;
-    line-height: 62px;
-    letter-spacing: 1px;
-    text-align: center;
+    text-transform: uppercase;
     font-family: 'Inter';
+}
+.cont1-title2{
+    font-size: 54px;
+    line-height: 62px;
+    font-weight: 600;
+    color: #282828;
+    font-family: 'Inter';
+    letter-spacing: -1px;
+}
+.control-div{
+    display: flex;
+    height: 178px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.cont1-desc{
+    width: 760px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #5F6980;
+    font-family: 'Inter';
+}
+.title1{
+    flex-wrap: wrap;
+    height: 26px;
+}
+.container2{
+    width: 1336px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont2-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 908px;
+    align-content: space-between;
+}
+.cont2-blck{
+    width: 310px;
+    height: 430px;
+    border: 1px solid;
+    border-color: #EAECF0;
+}
+.div-names{
+    font-size: 18px;
+    color: #282828;
+    line-height: 30px;
+    font-weight: 600;
+    margin-left: 15px;
+    font-family: 'Inter';
+}
+.div-prof{
+    font-size: 14px;
+    color: #3E3E59;
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    font-family: 'Inter';
+}
+.div-descr{
+    font-size: 14px;
+    color: #5F6980;
+    line-height: 22px;
+    width: 270px;
+    text-align: justify;
+    font-weight: 400;
+    margin-left: 15px;
+    font-family: 'Inter';
+}
+.icons{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.footer-bg{
+    background-color: #53535354;
+    margin-top: 30px;
+}
+.footer-cont{
+    width: 1306px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 512px;
+    flex-wrap: wrap;
+}
+.footer-block1{
+    display: flex;
+    height: 223px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.footer-block2{
+    width: 318.05px;
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer-block3{
+    margin-top: 50px;
+}
+.footer-logo{
+    padding-top: 80px;
+}
+.footer-block4{
+    width: 136px;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-title1{
+    font-size: 20px;
+    color: #1E1E1E;
+    font-family: 'Inter';
+}
+.footer-title2{
+    width: 199px;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-title3{
+    width: 107px;
+    height: 127.45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lang-box{
+    width: 80px;
+    height: 45px;
+    background-color: #054A68;
+    margin-top: 40px;
+}
+.lang-box-desc{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16.94px;
+    text-align: center;
+    padding-top: 14.03px;
+    font-family: 'Inter';
+}
+.footer-txt{
+    color: #535353;
+    font-size: 14px;
+    line-height: 16.94px;
+    margin-top: 30px;
+    font-family: 'Inter';
+}
+.active{
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.image-block{
+    margin-bottom: 16px;
+}
+.middle-icon{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.footer-title{
+    font-size: 20px;
+    color: #1E1E1E;
+    font-family: 'Inter';
+    line-height: 24.2px;
     font-weight: 600;
 }
- .cont1-desc {
-    font-size: 20px;
-    color: #5F6980;
-    line-height: 35px;
-    text-align: center;
+.footer-txt2 {
+    font-size: 14px;
+    color: #535353;
+    font-weight: 400;
+    line-height: 16.94px;
     font-family: 'Inter';
-    font-weight: 400;    
- }
- .paragraph-div {
-    margin-left: auto;
-    margin-right: auto;
-    width: 760px;
-    height: 70px;
-    margin-top: 16px;
- }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
